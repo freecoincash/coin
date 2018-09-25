@@ -1,4 +1,5 @@
 add_definitions(-DSTATICLIB)
+set_property(TARGET daemon PROPERTY OUTPUT_NAME "lottocoin")
 
 file(GLOB_RECURSE BlockchainExplorer BlockchainExplorer/*)
 file(GLOB_RECURSE Common Common/*)
